@@ -4,11 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: asdasd
+  label: asdasdqwe
+  create: all
+  match: "**/*"
+- type: heading
+  label: 내비게이션
 - type: document
   path: asd
   label: asd
-- type: heading
-  label: 내비게이션
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

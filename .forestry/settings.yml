@@ -7,7 +7,6 @@ sections:
 - type: document
   path: asd
   label: asd
-  match: "**/*"
 - type: heading
   label: 내비게이션
 upload_dir: uploads
